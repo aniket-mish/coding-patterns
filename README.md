@@ -32,3 +32,13 @@ while the queue is not empty:
 ### Bottom-Up DFS
 ```
 ```
+
+### Tree Construction (Top-Down)
+
+1. Figure out what the root is and construct it.
+2. Recursively construct the left subtree.
+3. Recursively construct the right subtree.
+
+```
+
+```
