@@ -42,3 +42,9 @@ while the queue is not empty:
 ```
 
 ```
+
+## Graphs
+
+1. Build the graph
+2. Do either BFS/DFS
+3. Outer loop
