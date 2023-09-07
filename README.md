@@ -1,6 +1,7 @@
 # coding-patterns
 
 ## Sorting
+
 ```
 
 ```
@@ -8,6 +9,7 @@
 ## Recursion
 
 ### Combinatorial Enumerations
+
 ```
 
 ```
@@ -15,7 +17,8 @@
 ## Trees
 
 ### BFS
-```
+
+```python
 handle an empty tree as a special edge case
 initialize an empty result array
 create an empty queue and push the root of the tree into it
@@ -31,11 +34,13 @@ while the queue is not empty:
 ```
 
 ### Top-Down DFS
+
 ```
 
 ```
 
 ### Bottom-Up DFS
+
 ```
 
 ```
@@ -54,7 +59,7 @@ while the queue is not empty:
 
 1. Build the graph
 
-```
+```python
 n = number of vertices (generally convenient ids:  0 to n-1 as these ids can be treated as indexes in the adjacency list)
 adjList = a 1D array of empty lists (of integers) of size n
 visited = a 1D array of size n initialized to -1
@@ -66,7 +71,7 @@ for (src, dst) in edges:
 
 2. Do either BFS/DFS
 
-```
+```python
 def bfs(source):
   q = collections.deque()
   q.append(source)
@@ -79,7 +84,7 @@ def bfs(source):
         q.append(neighbour)
 ```
 
-```
+```python
 def dfs(source):
   visited[source] = 1
   for neighbour in adjList[source]:
@@ -89,7 +94,7 @@ def dfs(source):
 
 3. Outer loop
 
-```
+```python
 for a vertex in 0 to n-1:
   if visited[vertex] == -1:
       bfs(vertex)
