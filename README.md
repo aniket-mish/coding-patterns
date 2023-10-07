@@ -1,10 +1,35 @@
 # coding-patterns
 
+## Cycle Sort
+
+Strategy - _Decrease-and-conquer_
+
+```python
+nums = [9, 23, 2, 4, 15, 1]
+for i in range(0, len(nums)):
+  while nums[i] is not in its final spot (i.e. rank(nums[i]) - 1):
+    let d <- destination index of nums[i] should go = (rank(nums[i]) - 1)
+    swap nums[i], nums[d]
+
+return sorted_nums
+```
+
+Time Complexity - O(n^2)
+Space Complexity - O(1)
+
 ## Sorting
 
-```
+Strategy - _Decrease-and-conquer_
 
 ```
+```
+
+Strategy - _Divide-and-conquer_
+
+```
+```
+
+Strategy - _Transform-and-conquer_
 
 ## Recursion
 
