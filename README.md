@@ -27,6 +27,15 @@ Space Complexity - O(1)
 
 Next, if the numbers are distinct and consecutive, we can instantly calculate rank. So the time complexity reduces to O(n).
 
+```python
+
+for i from 0 to n - 1:
+  if nums[i] is not the value expected at that spot (i.e. nums[i] != i):
+    let d <- destination index to which nums[i] should be sent
+  swap nums[i] and nums[d]
+
+```
+
 ## Sorting
 
 Strategy - _Decrease-and-conquer_
