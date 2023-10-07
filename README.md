@@ -25,6 +25,8 @@ return sorted_nums
 Time Complexity - O(n^2)
 Space Complexity - O(1)
 
+Next, if the numbers are distinct and consecutive, we can instantly calculate rank. So the time complexity reduces to O(n).
+
 ## Sorting
 
 Strategy - _Decrease-and-conquer_
