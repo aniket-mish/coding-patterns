@@ -5,12 +5,21 @@
 Strategy - _Decrease-and-conquer_
 
 ```python
+
+def rank(x):
+  numsmaller = 0
+  for i in range(0, len(nums)):
+    if nums[i] < numsmaller:
+      numsmaller += 1
+  return numsmaller + 1
+
 nums = [9, 23, 2, 4, 15, 1]
 for i in range(0, len(nums)):
   while nums[i] is not in its final spot (nums[i] != rank(nums[i]) - 1):
     let d <- destination index of nums[i] should go (d = (rank(nums[i]) - 1))
     swap nums[i], nums[d]
 return sorted_nums
+
 ```
 
 Time Complexity - O(n^2)
