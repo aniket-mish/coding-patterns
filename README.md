@@ -7,10 +7,9 @@ Strategy - _Decrease-and-conquer_
 ```python
 nums = [9, 23, 2, 4, 15, 1]
 for i in range(0, len(nums)):
-  while nums[i] is not in its final spot (i.e. rank(nums[i]) - 1):
-    let d <- destination index of nums[i] should go = (rank(nums[i]) - 1)
+  while nums[i] is not in its final spot (nums[i] != rank(nums[i]) - 1):
+    let d <- destination index of nums[i] should go (d = (rank(nums[i]) - 1))
     swap nums[i], nums[d]
-
 return sorted_nums
 ```
 
