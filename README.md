@@ -2,7 +2,7 @@
 
 workbook - https://bit.ly/3WI9Bja
 
-Index
+**Index**
 
 1. Sorting
 2. Recursion
@@ -10,7 +10,7 @@ Index
 4. Graphs
 5. Dynamic Programming
 6. Sliding Window
-7. Matrix
+7. Matrices
 
 # Sorting
 
@@ -24,7 +24,7 @@ Index
 > get the mid of a python list, to avoid overflow `mid = start + (end - start) / 2`
 
 
-## divide-and-conquer
+## Divide-and-conquer
 
 _work upfront_
 
@@ -34,7 +34,7 @@ _work at the end_
 
 - merge sort
 
-## transform-and-conquer
+## Transform-and-conquer
 
 _presorting_
 
@@ -50,8 +50,7 @@ _common patterns_
 - presorting and one pass
 - presorting and two-pointer pass
 
-
-## two-pointer pass
+## Two-pointer pass
 
 - should have sorted lists
 - code is similar to merge sort's merge phase
@@ -87,7 +86,7 @@ for i < len(nums1) and j < len(nums2):
 return res
 ```
 
-## decrease-and-conquer
+## Decrease-and-conquer
 
 1. binary search
 
@@ -133,7 +132,6 @@ def helper(array, start, end):
 def quick_sort(nums):
   helper(nums, 0, len(nums) - 1)
 ```
-
 
 *using quick select*
 
@@ -227,15 +225,15 @@ for each number in the stream:
 
 ---
 
-# recursion
+# Recursion
 
-## combinatorial Enumerations
+## Combinatorial Enumerations
 
 ---
 
-# trees
+# Trees
 
-## bfs
+## BFS
 
 ```python
 handle an empty tree as a special edge case
@@ -252,13 +250,13 @@ while the queue is not empty:
     if the node has the right child, push it to the back of the queue
 ```
 
-## top-down dfs
+## Top-down DFS
 
 
-## bottom-up dfs
+## Bottom-up DFS
 
 
-## tree construction(top-down)
+## Tree Construction(top-down)
 
 1. Figure out what the root is and construct it.
 2. Recursively construct the left subtree.
@@ -266,7 +264,7 @@ while the queue is not empty:
 
 ---
 
-# graphs
+# Graphs
 
 1. build the graph
 
@@ -313,11 +311,19 @@ for a vertex in 0 to n-1:
 
 time, space complexity:
 
-| bfs | dfs |
+| BDS | DFS |
 | --- | --- |
 | O(m + n) | O(m + n) |
 | O(n) | O(n) |
 
 ---
 
-# dynamic Programming
+# Dynamic Programming
+
+---
+
+# Sliding Window
+
+---
+
+# Matrices
