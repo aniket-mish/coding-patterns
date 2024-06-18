@@ -19,8 +19,8 @@ class MovingAverage(object):
     # Add the number in the queue
     q.append(val)
 
-    # Check if the length of the queue is equal to k
-    if len(q) >= self.k:
+    # Check if the length of the queue is greater than k
+    if len(q) > self.k:
 
       # Remove the top left number from the queue 
       # and subtract the number from the total as well
