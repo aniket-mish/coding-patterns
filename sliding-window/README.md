@@ -2,6 +2,8 @@
 
 ## Fixed window problem pattern
 
+_Easy to figure out as problems have `size=k`_
+
 > [!NOTE]
 > Brute force: exhaustively search for all the sub-arrays of size k
 > time complexity: O(nk) as O(k) time per sub-array
