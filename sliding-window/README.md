@@ -2,7 +2,7 @@
 
 ## Fixed window problem pattern
 
-```python
+```
 # Initialization metrics/variables for the leftmost window
 
 # This will be same in every fixed window problem
