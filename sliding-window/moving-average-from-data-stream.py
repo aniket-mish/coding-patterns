@@ -1,5 +1,6 @@
 from collections import deque
 
+# O(1) time | O(k) space
 class MovingAverage(object):
 
   # Initialization Phase
