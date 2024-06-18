@@ -2,6 +2,10 @@
 
 ## Fixed window problem pattern
 
+> [!NOTE]
+> Brute force: exhaustively search for all the sub-arrays of size k
+> time complexity: O(nk) as O(k) time per sub-array
+
 ```
 # Initialization metrics/variables for the leftmost window
 
