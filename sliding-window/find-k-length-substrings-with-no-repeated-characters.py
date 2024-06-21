@@ -31,7 +31,7 @@ def find_k_length_substrings_with_no_repeated_characters(s, k):
     else:
       hmap[s[i]] = 1
 
-    # Decrease the frequency by 1 as it was added in the hmap by subordinate
+    # Decrease the frequency by 1 as it must have been added in the hmap by subordinate and so we don't need a check
     hmap[s[i-k]] -= 1
 
     # Delete the ele from hmap
