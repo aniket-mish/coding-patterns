@@ -4,6 +4,8 @@ def permutation_in_string(s1, s2):
   """
   Use decrease and conquer approach and see how its a fixed length sliding window problem.
   Use the coding pattern discussed.
+
+  The understanding is that if the frquency dict is the same then the permutation exists.
   """
 
   # Initialization
