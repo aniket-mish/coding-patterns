@@ -1,5 +1,4 @@
 # O(m + n) time | O(1) space
-
 def permutation_in_string(s1, s2):
   """
   Use decrease and conquer approach and see how its a fixed length sliding window problem.
@@ -32,7 +31,7 @@ def permutation_in_string(s1, s2):
 
   # Compare the dicts
   if hmap_s1 == hmap:
-    return out.append(i-k+1) # as substring begins at i-k+1
+    return out.append(0) # as index for the leftmost windows starts at 0
 
   # Iterate over next subarrays
   for i in range(k, len(s2)):
@@ -52,6 +51,6 @@ def permutation_in_string(s1, s2):
 
     # Compare the dicts
     if hmap_s1 == hmap:
-      return out.append(i-k+1)
+      return out.append(i-k+1) # as index for the substring starts at i-k+1
 
   return out
