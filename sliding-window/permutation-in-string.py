@@ -1,6 +1,10 @@
 # O(m + n) time | O(1) space
 
 def permutation_in_string(s1, s2):
+  """
+  Use decrease and conquer approach and see how its a fixed length sliding window problem.
+  Use the coding pattern discussed.
+  """
 
   # Initialization
   hmap_s1 = {}
