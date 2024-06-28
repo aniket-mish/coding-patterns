@@ -1,6 +1,6 @@
 # Sliding Window Coding Pattern
 
-## Fixed window pattern
+## Fixed length sliding window pattern
 
 _Easy to figure out as problems have `size=k`_
 
@@ -23,7 +23,7 @@ for i in range k to n-1:
 return global answer (e.g. counting(sum of local answers) or optimization(min, max, avg, etc))
 ```
 
-## Variable window pattern
+## Variable length sliding window pattern
 
 ```
 # Initialization metrics/variables
