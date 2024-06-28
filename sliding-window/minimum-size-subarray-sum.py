@@ -21,7 +21,7 @@ class Solution:
 
             while left <= i and window_sum >= target:
                 window_sum -= nums[left]
-                global_answer = min(global_answer, i-left+1) # length of min subarray with target as sum
+                global_answer = min(global_answer, i-left+1) # Length of min subarray with target as sum. All the subarrays are contributing to the global answer.
                 left += 1
 
         if global_answer == float("inf"):
