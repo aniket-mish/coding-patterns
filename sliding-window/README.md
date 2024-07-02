@@ -8,7 +8,7 @@ _Easy to figure out as problems have `size=k`_
 > Brute force: exhaustively search for all the sub-arrays of size k
 > time complexity: O(nk) as O(k) time per sub-array
 
-```
+```python
 # Initialization metrics/variables for the leftmost window
 
 # This will be same in every fixed window problem
@@ -25,7 +25,7 @@ return global answer (e.g. counting(sum of local answers) or optimization(min, m
 
 ## Variable length sliding window pattern
 
-```
+```python
 # Initialization metrics/variables
 
 # Decrease and conquer
