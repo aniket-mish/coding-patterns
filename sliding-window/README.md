@@ -27,6 +27,7 @@ return global answer (e.g. counting(sum of local answers) or optimization(min, m
 
 ```python
 # Initialization metrics/variables
+left = 0
 
 # Decrease and conquer
 for i in range 0 to n-1:
@@ -38,9 +39,7 @@ for i in range 0 to n-1:
       # Update window metrics
       left += 1
 
-  # Local answer would be available here and we can use that to update global answer
-
-return global answer
+  # Local answer would be available here
 
   # Update the global answer based on the local answer
 
