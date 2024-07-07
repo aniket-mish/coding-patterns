@@ -9,7 +9,7 @@ def longest_substring_with_at_most_two_distinct_characters(s: str):
     # Max length substring ending at index i
     # and containing at most 2 distinct characters
 
-    if hmap[s[i]] in hmap:
+    if s[i] in hmap:
       hmap[s[i]] += 1
     else:
       hmap[s[i]] = 1
