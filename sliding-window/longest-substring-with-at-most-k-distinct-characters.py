@@ -1,4 +1,4 @@
-# O(n) time | O(1) space
+# O(n) time | O(k) space - can be at the max k
 def longest_substring_with_at_most_k_distinct_characters(s: str, k: int):
   
   left = 0
