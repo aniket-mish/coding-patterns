@@ -10,6 +10,8 @@ class Solution:
 
         Choose the subarray of size n-k with minimum total score
         In end we can compute the score that was taken away and can be the output
+
+        This is a problem reduction technique
         """
 
         # Initialize the metrics for the leftmost window
