@@ -15,6 +15,14 @@ workbook - https://bit.ly/3WI9Bja
 > [!NOTE]
 > 🐙 - Skipped/need to revisit
 
+
+Core strategies for solving any problem:
+1. Brute force
+2. Decrease and conquer
+3. Divide and conquer
+4. Transform and conquer
+
+
 # Sorting
 
 1. pre-sorting + binary search/linear scan/two-pointer pass or hash tables (space vs time tradeoff)
