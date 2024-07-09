@@ -11,6 +11,10 @@ workbook - https://bit.ly/3WI9Bja
 5. Dynamic Programming
 6. Sliding Window
 7. Matrices
+8. Binary Search
+9. Greedy
+10. Stacks
+
 
 > [!NOTE]
 > 🐙 - Skipped/need to revisit
