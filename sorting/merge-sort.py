@@ -29,7 +29,7 @@ def merge_sort(arr):
         aux.append(arr[i])
         i = i + 1
 
-    # Gather up remaining elements from the array
+    # Gather up remaining elements from the arrays
     while i <= mid:
       aux.append(arr[i])
       i = i + 1
@@ -37,7 +37,6 @@ def merge_sort(arr):
     while j <= end:
       aux.append(arr[j])
       j = j + 1
-
 
     # Copy the elements back to the original array
     arr[start:end+1] = aux
