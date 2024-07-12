@@ -45,7 +45,7 @@ _Common patterns_
 ## Two-pointer pass
 
 - Should have sorted lists
-- Code is similar to merge sort's merge phase [merge_sort]()
+- Code is similar to merge sort's merge phase [merge-sort](/sorting/merge-sort.py)
 - Whichever element is smaller, that pointer is incremented
 
 *This is a very important coding pattern similar to merge sort's merge phase and pointer increments are just tweeks*
