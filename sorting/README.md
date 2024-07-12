@@ -1,5 +1,14 @@
 # Sorting
 
+- Selection sort O(n^2)
+- Insertion sort O(n^2) but for small almost sorted arrays O(n)
+- Merge sort O(nlogn) stable, uses aux space
+- Quick sort O(nlogn) not stable, in-place, empirically faster
+- Heap sort O(nlogn) not stable, in-place
+- Counting sort O(n) narrow range, lots of duplicates
+- Radix sort O(n) integer arrays
+
+
 1. Pre-sorting + binary search/linear scan/two-pointer pass or hash tables (space vs time tradeoff)
 2. Extension of merge phase in merge sort - Union or intersection of two arrays
 3. Extension of quicksort - quick select and 3-way partitioning
