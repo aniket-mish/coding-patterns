@@ -17,6 +17,7 @@
 
 > [!TIP]
 > to get the mid of a python list and to avoid overflow use
+>
 > `mid = start + (end - start) / 2`
 
 
@@ -26,7 +27,14 @@ work to be done upfront e.g. quick sort
 
 work to be done at the end e.g. merge sort
 
+
 ## Transform-and-conquer
+
+> [!TIP]
+> For search operation, we can use data structures:
+> 
+> Balanced binary search tree that takes O(logn) for search, insert and delete
+> Hash table that takes O(1) for search, insert and delete
 
 _Pre-sorting_
 
