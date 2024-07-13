@@ -6,6 +6,8 @@ def two_sum(arr, target):
   You can also use any approach from bottom up or top down
   Here we are asking subordinates to give us the answer first so its botton up
   This take O(n) time and O(n) space
+
+  You can use two-pointer pass approach as well. This takes O(n) time and O(1) space.
   """
   hmap = {}
 
