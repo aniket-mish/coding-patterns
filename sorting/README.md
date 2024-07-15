@@ -44,7 +44,7 @@ _Pre-sorting_
 - Frequency distribution
 - Select k-th largest/smallest/median
 
-_Common patterns_
+These are some of the common patterns of problems
 
 - Pre-sorting and binary search
 - Pre-sorting and one pass
