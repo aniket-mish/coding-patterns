@@ -2,12 +2,12 @@
 def merge_sort(arr):
 
   def helper(arr, start, end):
-    # Base case: subproblem size is 0 or 1 which means nothing to do
-    if start >= end:
+    # Base case: subproblem size is 1 which means nothing to do
+    if start == end:
       return
 
     # Recursive case: subproblem size is atleast 2 so cut the array into two halves and delegate the work to two subordinates hired under you
-    mid = (start + end) / 2
+    mid = start + (end - start) // 2
 
     # Sort left half
     helper(arr, start, mid)
