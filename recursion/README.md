@@ -32,3 +32,8 @@ def main problem(problem_of_size_n):
     return global_result
   
 ```
+
+> [!NOTE]
+> a top-down recursion - quick sort - you do some work and then delegate and go away
+> 
+> a bottom-up recursion - merge sort - once those are sorted by your subordinates you need to combine those subarrays
