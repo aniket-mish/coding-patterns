@@ -33,6 +33,9 @@ def main problem(problem_of_size_n):
   
 ```
 
+![image](https://github.com/user-attachments/assets/77810959-4e95-4a80-88e9-17c552df4c69)
+
+
 > [!NOTE]
 > a top-down recursion - quick sort - you do some work and then delegate and go away
 > 
