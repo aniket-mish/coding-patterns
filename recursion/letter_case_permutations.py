@@ -1,3 +1,11 @@
+# time
+# leaf worker - O(2^n.1)
+# internal worker - O(2^n.n)
+
+# space
+# input - O(n)
+# aux space - s, i O(1) slate O(n^2)
+# output - O(2^n.n) number of case variations.length of a case variation
 
 def letter_case_permutations(s: str):
   global_result = []
