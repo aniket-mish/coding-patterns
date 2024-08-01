@@ -4,7 +4,7 @@ Order matters - permutation
 
 Order does not matter - combination
 
-## General template
+## General template for permutation
 
 ```python
 def main problem(problem_of_size_n):
@@ -63,7 +63,7 @@ def letter_case_permutation(s: str):
 
     def helper(s, i, slate):
     
-        # Base case: lead worker
+        # Base case: leaf worker
         if i == len(s):
             global_result.append("".join(slate)) # string version of slate contents (just copying contents to global result)
             return
@@ -88,3 +88,37 @@ def letter_case_permutation(s: str):
     helper(s, 0, "")
     return global_result
 ```
+
+## General template for combination
+
+```python
+
+# space - input O(n) + aux space O(n) (height of the call stack + max size of the slate) + output O(2^n. n)
+
+# time - leaf workers O(2^n.n) + internal workers O(2^n.1)
+
+def subsets(nums):
+    global_result = []
+
+    def helper(s, i, slate):
+    
+        # Base case: leaf worker
+        if i == len(s):
+            global_result.append(slate[:]) # slicing creates a copy/clone of the slate
+            return
+    
+        # Recursive case: intermediate worker
+        # Exclude case
+
+        helper(s, i+1, slate)
+
+        # Include case
+        slate.append(s[i])
+        helper(s, i+1, slate)
+        slate.pop()
+
+    helper(nums, 0, [])
+    return global_result
+```
+
+![image](https://github.com/user-attachments/assets/70faba6a-8208-4558-b2bc-66b6e7919054)
