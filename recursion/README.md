@@ -121,4 +121,5 @@ def subsets(nums):
     return global_result
 ```
 
-![image](https://github.com/user-attachments/assets/70faba6a-8208-4558-b2bc-66b6e7919054)
+<img width="960" alt="Screenshot 2024-08-01 at 3 54 40 PM" src="https://github.com/user-attachments/assets/8cff8159-0239-4a2c-a3e3-11d6733cb186">
+
