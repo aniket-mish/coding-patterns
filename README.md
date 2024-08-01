@@ -26,15 +26,6 @@ Core strategies for solving any problem:
 3. Divide and conquer
 4. Transform and conquer
 
-
----
-
-# Recursion
-
-## Combinatorial Enumerations
-
----
-
 # Trees
 
 ## BFS
@@ -53,12 +44,6 @@ while the queue is not empty:
     if the node has the left child, push it to the back of the queue
     if the node has the right child, push it to the back of the queue
 ```
-
-## Top-down DFS
-
-
-## Bottom-up DFS
-
 
 ## Tree Construction(top-down)
 
@@ -119,15 +104,3 @@ time, space complexity:
 | --- | --- |
 | O(m + n) | O(m + n) |
 | O(n) | O(n) |
-
----
-
-# Dynamic Programming
-
----
-
-# Sliding Window
-
----
-
-# Matrices
