@@ -6,6 +6,10 @@ Order does not matter - combination
 
 ## General template for permutation
 
+
+![image](https://github.com/user-attachments/assets/77810959-4e95-4a80-88e9-17c552df4c69)
+
+
 ```python
 def main problem(problem_of_size_n):
     Initialize the global_result = []
@@ -32,10 +36,6 @@ def main problem(problem_of_size_n):
     return global_result
   
 ```
-
-
-![image](https://github.com/user-attachments/assets/77810959-4e95-4a80-88e9-17c552df4c69)
-
 
 > [!NOTE]
 > a top-down recursion - quick sort - you do some work and then delegate and go away
@@ -91,6 +91,10 @@ def letter_case_permutation(s: str):
 
 ## General template for combination
 
+
+<img width="960" alt="Screenshot 2024-08-01 at 3 54 40 PM" src="https://github.com/user-attachments/assets/8cff8159-0239-4a2c-a3e3-11d6733cb186">
+
+
 ```python
 
 # space - input O(n) + aux space O(n) (height of the call stack + max size of the slate) + output O(2^n. n)
@@ -121,5 +125,10 @@ def subsets(nums):
     return global_result
 ```
 
-<img width="960" alt="Screenshot 2024-08-01 at 3 54 40 PM" src="https://github.com/user-attachments/assets/8cff8159-0239-4a2c-a3e3-11d6733cb186">
+## Backtracking
+
+
+<img width="822" alt="Screenshot 2024-08-02 at 4 48 44 PM" src="https://github.com/user-attachments/assets/e1d23864-2863-4f67-a43a-f72e774e30b6">
+
+
 
