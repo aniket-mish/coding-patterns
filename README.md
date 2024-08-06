@@ -26,33 +26,6 @@ Core strategies for solving any problem:
 3. Divide and conquer
 4. Transform and conquer
 
-# Trees
-
-## BFS
-
-```python
-handle an empty tree as a special edge case
-initialize an empty result array
-create an empty queue and push the root of the tree into it
-
-while the queue is not empty:
-  count how many nodes there are in the queue
-
-  repeat that many times:
-    pop the next node from the front of the queue
-    append it to the result
-    if the node has the left child, push it to the back of the queue
-    if the node has the right child, push it to the back of the queue
-```
-
-## Tree Construction(top-down)
-
-1. Figure out what the root is and construct it.
-2. Recursively construct the left subtree.
-3. Recursively construct the right subtree.
-
----
-
 # Graphs
 
 1. build the graph
