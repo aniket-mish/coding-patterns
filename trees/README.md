@@ -5,14 +5,6 @@
 
 ```python
 
-# Input
-
-# TreeNode
-# ---------
-# int value
-# TreeNode left
-# TreeNode right
-
 def bfs(root):
 
   # handle an empty tree as a special edge case
@@ -43,4 +35,33 @@ def bfs(root):
       q.push(node.right)
 
   return result
+
+```
+
+## DFS Template
+
+```python
+
+def main(root):
+  
+  def dfs(node):
+  
+    # Base case: leaf node
+    if node.left is None and node.right is None:
+      # Process the value
+      return
+  
+    # Recursive case: internal node
+    if node.left is not None:
+      dfs(node.left)
+  
+    if node.right is not None:
+      dfs(node.right)
+
+  # Edge case
+  if root is None:
+    return
+
+  dfs(root)
+
 ```
