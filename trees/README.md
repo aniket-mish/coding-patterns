@@ -21,7 +21,7 @@ def bfs(root):
   while q is not empty:
 
     # pop the next node from the front of the queue
-    node = q.pop()
+    node = q.popleft()
 
     # Process node.value
     result.append(node.value)
