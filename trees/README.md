@@ -28,11 +28,11 @@ def bfs(root):
 
     # if the node has the left child, push it to the back of the queue
     if node.left is not None:
-      q.push(node.left)
+      q.append(node.left)
 
     # if the node has the right child, push it to the back of the queue
     if node.right is not None:
-      q.push(node.right)
+      q.append(node.right)
 
   return result
 
