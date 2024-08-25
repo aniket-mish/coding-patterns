@@ -58,5 +58,6 @@ for a vertex in 0 to n-1:
 
 
 > [!NOTE]
-> a graph is valid if it has only 1 component with no cycle
+> a tree is valid, if it is a connected graph(has only 1 component) with no cycle
+> 
 > if there is a cross-edge, there is a cycle present
