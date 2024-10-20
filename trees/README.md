@@ -13,7 +13,7 @@ def bfs(root):
 
   # create an empty queue and push the root of the tree into it
   q = deque()
-  q.push(root)
+  q.append(root)
 
   # initialize an empty result array
   result = []
